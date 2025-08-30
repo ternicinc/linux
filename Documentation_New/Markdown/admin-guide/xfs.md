@@ -41,3 +41,8 @@ lrwxrwxrwx  link -> file   # symlink (l)
 
 ```
 The inode types matters for a few reason: It determins how the Operating System will interact with the object and which operations are allowed, for example, you can't `cd` into a file.
+
+---
+
+**Side Note** Whenever Aeplo starts it's development and fork of the kernel, the chance is relativly high that we will implement another type of filesystem, custom made. More information regrading
+that will be available soon.
